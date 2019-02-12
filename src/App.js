@@ -16,7 +16,7 @@ function App(props) {
     <div>
       <NavTabs />
       <ScrollToTop showUnder={160}>
-      <Button fab color="primary" className={classes.button}>
+      <Button color="primary" className={classes.button}>
         <UpIcon/>
       </Button>
       </ScrollToTop>

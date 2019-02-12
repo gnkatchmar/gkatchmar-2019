@@ -8,16 +8,15 @@ const styles = theme => ({
 });
 
 const buttonData = [
-  {"key": 1, "hrefs":"https://www.linkedin.com/in/gregory-katchmar-3a48275a", "labels": "LinkedIn"},
-  {"key": 2, "hrefs":"https://github.com/gnkatchmar", "labels": "Github"},
-  {"key": 3, "hrefs":"https://drive.google.com/open?id=1FAe5QmZeuDlVWCz-1ClpXX0vWKHqPz63", "labels": "Resume (PDF)"},
+  {"hrefs":"https://www.linkedin.com/in/gregory-katchmar-3a48275a", "labels": "LinkedIn"},
+  {"hrefs":"https://github.com/gnkatchmar", "labels": "Github"},
+  {"hrefs":"https://drive.google.com/open?id=1FAe5QmZeuDlVWCz-1ClpXX0vWKHqPz63", "labels": "Resume (PDF)"},
 ];
 
-const buttons = buttonData.map((buttonData) =>
-<span>
+const buttons = buttonData.map((buttonData, index) =>
+<span key={index}>
   <Button 
-    variant="raised"
-    key={buttonData.key}
+    variant="contained"    
     href={buttonData.hrefs}
     target="_blank"
     color="primary"
@@ -38,7 +37,7 @@ class Home extends Component {
 				{buttons}
 				<hr></hr>
 				<Button 
-					variant="raised" 
+					variant="contained" 
 					color="primary"
 					href="https://gnkatchmar.github.io/brunch-finder/"
 					target="_blank"
