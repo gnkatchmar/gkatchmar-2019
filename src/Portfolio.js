@@ -1,7 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
-import Card, { CardHeader, CardContent } from '@material-ui/core/Card';
+import Card from '@material-ui/core/Card';
+import CardHeader from '@material-ui/core/CardHeader';
+import CardContent from '@material-ui/core/CardContent';
 
 const cardData = [
   {
@@ -18,7 +20,7 @@ const cardData = [
     "headerSubheader": "October 2017",
     "mediaTitle": "My personal website.",
     "mediaSubheader": " + React, React-Router, Material-UI.",
-    "textHref": "https://github.com/gnkatchmar/new-gkatchmar"
+    "textHref": "https://github.com/gnkatchmar/gkatchmar-2019"
   },
   {
     "key": 3,
