@@ -2,7 +2,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
 import AppBar from '@material-ui/core/AppBar';
-import Tabs, { Tab } from '@material-ui/core/Tabs';
+import Tabs from '@material-ui/core/Tabs';
+import Tab from '@material-ui/core/Tab';
 import { withRouter } from "react-router-dom";
 import Home from "./Home";
 import Portfolio from "./Portfolio";
@@ -51,11 +52,11 @@ class NavTabs extends React.Component {
           <Tabs
             value={value}
             onChange={this.handleChange}
-            scrollable
-            scrollButtons="on"
             indicatorColor="primary"
             textColor="primary"
-          >
+            variant="scrollable"
+            scrollButtons="auto"
+        >
             <Tab label="Home" value = "/" />
             <Tab label="Portfolio" value = "/portfolio"/>
             <Tab label="Dining Guide" value = "/dining"/>

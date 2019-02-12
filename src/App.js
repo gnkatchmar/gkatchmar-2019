@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
 import Button from '@material-ui/core/Button';
-import UpIcon from "@material-ui-icons/ArrowUpward";
+import UpIcon from "@material-ui/icons/ArrowUpward";
 import ScrollToTop from "react-scroll-up";
 import NavTabs from "./NavTabs";
 
