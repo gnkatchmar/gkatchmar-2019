@@ -1,4 +1,5 @@
 import React, {Component} from "react";
+import './home.css';
 import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
 import Button from '@material-ui/core/Button';
@@ -30,12 +31,14 @@ const buttons = buttonData.map((buttonData, index) =>
 class Home extends Component {
   render() {
     return (
+      <div className="bg">
       <div className="buttons">
         <h1>Gregory N. Katchmar</h1>
         <h2>JavaScript Developer</h2>
         <h4>More information at:</h4>
 				{buttons}
-				<hr></hr>
+        <br></br>
+        <br></br>
 				<Button 
 					variant="contained" 
 					color="primary"
@@ -44,13 +47,16 @@ class Home extends Component {
 					rel="noopener noreferrer"
 					children="Launch Portland Weekend Brunch Finder 2.0"
 				/>
-				<hr></hr>
+        <br></br>
+        <br></br>
 				<h4>Contact me at:</h4>
 				<a href="mailto:gregkatchmar@gmail.com">gregkatchmar@gmail.com</a>
-				<hr></hr>
+        <br></br>
+        <br></br>
 				<p>A React 16.7/Material-UI 3.9 site</p>
-				<p>Last updated: February 12, 2019</p>
-			</div>
+				<p>Last updated: February 13, 2019</p>
+      </div>
+      </div>
     );
   }
 }
