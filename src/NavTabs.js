@@ -10,6 +10,7 @@ import Portfolio from "./Portfolio";
 import Dining from "./Dining";
 import Cocktail from "./Cocktail";
 import Restaurants from "./Restaurants";
+import Bella from "./Bella";
 
 function TabContainer(props) {
   return <div style={{ padding: 20 }}>{props.children}</div>;
@@ -62,6 +63,7 @@ class NavTabs extends React.Component {
             <Tab label="Dining Guide" value = "/dining"/>
             <Tab label="Restaurant Ratings" value = "/restaurants"/>
             <Tab label="Cocktail Guides" value = "/cocktails"/>
+            <Tab label="Bella the Husky" value = "/bella"/>
           </Tabs>
         </AppBar>
         {value === "/" && <TabContainer>{<Home />}</TabContainer>}
@@ -69,6 +71,7 @@ class NavTabs extends React.Component {
         {value === "/dining" && <TabContainer>{<Dining />}</TabContainer>}
         {value === "/restaurants" && <TabContainer>{<Restaurants />}</TabContainer>}
         {value === "/cocktails" && <TabContainer>{<Cocktail />}</TabContainer>}
+        {value === "/bella" && <TabContainer>{<Bella />}</TabContainer>}
       </div>
     );
   }
