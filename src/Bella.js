@@ -2,7 +2,16 @@ import ImageGallery from 'react-image-gallery';
 import React, {Component} from "react";
 import 'react-image-gallery/styles/css/image-gallery.css';
 
-const PREFIX_URL = './images/bella/';
+const PREFIX = './images/bella/';
+const SUFFIX = '.jpg';
+
+let imageStart = 1;
+let imageEnd = 13;
+// let images = Array(imageEnd-imageStart+1)
+//     .fill()
+//     .map(() => {original: require(`${PREFIX}${imageStart++}${SUFFIX}`)},
+
+
  
 class Bella extends Component {
 
@@ -10,14 +19,8 @@ class Bella extends Component {
  
     const images = [
       {
-        original: require(`${PREFIX_URL}01.jpg`)
-      },
-      {
-        original: require(`${PREFIX_URL}02.jpg`)
-      },
-      {
-        original: require(`${PREFIX_URL}03.jpg`)
-      }     
+        original: require(`${PREFIX}${imageStart++}${SUFFIX}`)
+      }   
     ]
  
     return (
