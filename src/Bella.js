@@ -1,6 +1,7 @@
 import ImageGallery from 'react-image-gallery';
 import React, {Component} from "react";
 import 'react-image-gallery/styles/css/image-gallery.css';
+import './bella.css';
 
 const PREFIX_URL = './images/bella/';
 
