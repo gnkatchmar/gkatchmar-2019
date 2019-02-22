@@ -2,29 +2,22 @@ import ImageGallery from 'react-image-gallery';
 import React, {Component} from "react";
 import 'react-image-gallery/styles/css/image-gallery.css';
 
-const PREFIX = './images/bella/';
-const SUFFIX = '.jpg';
+const PREFIX_URL = './images/bella/';
 
-let imageStart = 1;
-let imageEnd = 13;
-// let images = Array(imageEnd-imageStart+1)
-//     .fill()
-//     .map(() => {original: require(`${PREFIX}${imageStart++}${SUFFIX}`)},
-
-
- 
 class Bella extends Component {
 
   render() {
- 
-    const images = [
-      {
-        original: require(`${PREFIX}${imageStart++}${SUFFIX}`)
-      }   
-    ]
+
+    let images = [];
+    for (let i = 1; i < 13; i++) {
+      images.push({
+        original: require(`${PREFIX_URL}${i}.jpg`),
+        thumbnail: require(`${PREFIX_URL}${i}.jpg`)
+      });
+    }
  
     return (
-      <ImageGallery items={images} showThumbnails = {false}/>
+      <ImageGallery items={images}/>
     );
   }
  
