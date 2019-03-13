@@ -12,12 +12,15 @@ class Bella extends Component {
     let images = [];
     for (let i = 1; i < 24; i++) {
       images.push({
-        original: require(`${PREFIX_URL}${i}.jpg`)
+        original: require(`${PREFIX_URL}${i}.jpg`),
+        thumbnail: require(`${PREFIX_URL}${i}.jpg`)
       });
     }
  
     return (
-      <ImageGallery items={images} showThumbnails={false}/>
+      <div>
+        <ImageGallery items={images} />
+      </div>
     );
   }
  
