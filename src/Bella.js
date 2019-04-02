@@ -12,13 +12,14 @@ class Bella extends Component {
     let images = [];
     for (let i = 1; i < 28; i++) {
       images.push({
-        original: require(`${PREFIX_URL}${i}.jpg`)
+        original: require(`${PREFIX_URL}${i}.jpg`) 
       });
     }
  
     return (
       <div>
-        <ImageGallery items={images} showThumbnails={false}/>
+        <ImageGallery items={images} showThumbnails={false} />
+        <h4>Photos by Kimbeley Kitzmiller and Greg Katchmar</h4>
       </div>
     );
   }
