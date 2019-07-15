@@ -53,8 +53,8 @@ class Home extends Component {
 				<a href="mailto:gregkatchmar@gmail.com">gregkatchmar@gmail.com</a>
         <br></br>
         <br></br>
-				<p>A React 16.7/Material-UI 3.9 site</p>
-				<p>Last updated: June 17, 2019</p>
+				<p>A React/Material-UI site</p>
+				<p>Last updated: July 14, 2019</p>
       </div>
       </div>
     );
