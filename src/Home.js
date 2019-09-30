@@ -45,7 +45,7 @@ class Home extends Component {
 					href="https://gnkatchmar.github.io/brunch-finder/"
 					target="_blank"
 					rel="noopener noreferrer"
-					children="My Weekend Brunch Finder App"
+					children="Weekend Brunch Finder App"
 				/>
         <br></br>
         <br></br>
@@ -54,7 +54,7 @@ class Home extends Component {
         <br></br>
         <br></br>
 				<p>A React/Material-UI site</p>
-				<p>Last updated: August 22, 2019</p>
+				<p>Last updated: September 30, 2019</p>
       </div>
       </div>
     );
