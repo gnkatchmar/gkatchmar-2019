@@ -8,14 +8,9 @@ const divStyle = {
 
 class Gaming extends Component {
   render() {
-    // if(navigator.userAgent.indexOf("Chrome") !== -1 )
-    // {
-    //   alert("Opening new window due to third-party Chrome cross-origin security issue");
-    //   window.open("https://geekgroup.app/users/henchmanpdx/collection?sort=rating.bgg&sortReverse=1");
-    // }
     return (
       <div style={divStyle}>
-        <iframe src="https://geekgroup.app/users/henchmanpdx/collection?sort=rating.bgg&sortReverse=1" title="gaming"></iframe>
+        <iframe src="https://docs.google.com/spreadsheets/d/1ALM3CSAulOgUZ1qObP4NYtNgHnHOODy1njXcyNaMxIs/edit#gid=2136869961" title="gaming"></iframe>
       </div>
     )
   }
