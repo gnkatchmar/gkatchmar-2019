@@ -10,7 +10,7 @@ class Gaming extends Component {
   render() {
     return (
       <div style={divStyle}>
-        <iframe src="https://docs.google.com/spreadsheets/d/1ALM3CSAulOgUZ1qObP4NYtNgHnHOODy1njXcyNaMxIs/edit#gid=2136869961" title="gaming"></iframe>
+        <iframe src="https://cardboardbutler.azureedge.net/#usernames=henchmanpdx" title="gaming"></iframe>
       </div>
     )
   }
