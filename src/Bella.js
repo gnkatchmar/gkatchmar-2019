@@ -10,7 +10,7 @@ class Bella extends Component {
   render() {
 
     let images = [];
-    for (let i = 1; i < 29; i++) {
+    for (let i = 1; i < 30; i++) {
       images.push({
         original: require(`${PREFIX_URL}${i}.jpg`) 
       });
@@ -19,7 +19,7 @@ class Bella extends Component {
     return (
       <div>
         <ImageGallery items={images} showThumbnails={false} />
-        <h4>Photos by Kimbeley Kitzmiller and Greg Katchmar</h4>
+        <h4>Photos by Kimbeley Kitzmiller, Greg Katchmar, and Jesse Estes</h4>
       </div>
     );
   }
