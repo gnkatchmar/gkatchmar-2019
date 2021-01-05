@@ -33,8 +33,10 @@ class Home extends Component {
     return (
       <div className="bg">
       <div className="buttons">
+        <br></br>
         <h1>Gregory N. Katchmar</h1>
         <h2>JavaScript Developer</h2>
+        <br></br>
         <h4>More information at:</h4>
 				{buttons}
         <br></br>
@@ -49,12 +51,15 @@ class Home extends Component {
 				/>
         <br></br>
         <br></br>
+        <br></br>
 				<h4>Contact me at:</h4>
 				<a href="mailto:gregkatchmar@gmail.com">gregkatchmar@gmail.com</a>
         <br></br>
         <br></br>
+        <br></br>
+        <br></br>
 				<p>A React/Material-UI site</p>
-				<p>Last updated: December 11, 2020</p>
+				<p>Last updated: January 5, 2021</p>
       </div>
       </div>
     );
