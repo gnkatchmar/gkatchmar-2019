@@ -10,7 +10,7 @@ class Bella extends Component {
   render() {
 
     let images = [];
-    for (let i = 1; i < 30; i++) {
+    for (let i = 1; i < 31; i++) {
       images.push({
         original: require(`${PREFIX_URL}${i}.jpg`) 
       });
