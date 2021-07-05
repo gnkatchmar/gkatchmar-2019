@@ -1,12 +1,13 @@
 import React, {Component} from "react";
-import './music.css';
 import Button from '@material-ui/core/Button';
 
 class Music extends Component {
   render() {
     return (
-      <div className="center">
       <div className="buttons">
+        <br></br>
+        <br></br>
+        <br></br>
         <Button 
 					variant="contained" 
 					color="primary"
@@ -16,8 +17,7 @@ class Music extends Component {
 					children="Music Collection (PDF)"
 				/>
       </div>
-      </div>
-    )
+     )
   }
 }
 

@@ -35,7 +35,6 @@ class Home extends Component {
       <div className="buttons">
         <br></br>
         <h1>Gregory N. Katchmar</h1>
-        <h2>JavaScript Developer</h2>
         <br></br>
         <h4>More information at:</h4>
 				{buttons}
@@ -59,7 +58,7 @@ class Home extends Component {
         <br></br>
         <br></br>
 				<p>A React/Material-UI site</p>
-				<p>Last updated: May 2, 2021</p>
+				<p>Last updated: July 5, 2021</p>
       </div>
       </div>
     );
