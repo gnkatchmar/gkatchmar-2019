@@ -11,7 +11,7 @@ class Music extends Component {
         <Button 
 					variant="contained" 
 					color="primary"
-					href="https://drive.google.com/file/d/1Bchwyz0jEkBX1BRMs4q52f_1CGaJVC3R/view?usp=sharing"
+					href="https://drive.google.com/file/d/1fWi1cKnlMwCeonMlvy7I9xGjMQ98W7Qy/view?usp=drive_link"
 					target="_blank"
 					rel="noopener noreferrer"
 					children="Music Collection (PDF)"
